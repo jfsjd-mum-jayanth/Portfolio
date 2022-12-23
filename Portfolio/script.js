@@ -33,20 +33,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["web3 enthusiast", "Web Developer", "Blogger", "learner"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-2", {
-        strings: ["web3 enthusiast", "Web Developer", "Blogger", "learner"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+    
 
     // owl carousel script
     $('.carousel').owlCarousel({
